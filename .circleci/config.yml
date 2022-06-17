@@ -3,6 +3,8 @@ orbs:
   node: circleci/node@4.7.0
 jobs:
   build:
+    docker:
+      - image: cimg/node:14.15.3
     executor:
       name: node/default
       tag: '10.4'
