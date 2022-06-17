@@ -15,6 +15,7 @@ workflows:
       docker: 
         - image: circleci/node:14.15.3
       steps:
+        - checkout
         - run: npm run install
         - run: npm run test
       # - node/test:
