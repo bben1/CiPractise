@@ -14,4 +14,8 @@ describe('utils', () => {
         const age = 23
         expect(greeting(name, age)).toEqual(`Hello, my name is ${name} and I am ${age} years old.`);
     })
+
+    it('2+1=3 test', () => {
+        expect(2+1).toBe(4);
+    })
 })
