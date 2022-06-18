@@ -16,6 +16,6 @@ describe('utils', () => {
     })
 
     it('2+1=3 test', () => {
-        expect(2+1).toBe(4);
+        expect(2+1).toBe(3);
     })
 })
